@@ -56,6 +56,7 @@ namespace onscripter_helper
             {
                 if (block.PhrasesEng.Count > block.PhrasesJp.Count)
                 {
+                    incorrectBlocksSb.AppendLine("------------------- " + block.PhrasesEng.Count.ToString() + "---" + block.PhrasesJp.Count.ToString() + " -------------------");
                     incorrectBlocksSb.AppendLine("------------------- " + "ENG > JP" + " -------------------");
                     incorrectBlocksSb.AppendLine(block.OriginalText.Replace("\n", "\r\n"));
                     incorrectBlocksSb.AppendLine("-------------------------------------------------------");
@@ -63,6 +64,7 @@ namespace onscripter_helper
                 }
                 if (block.PhrasesEng.Count < block.PhrasesJp.Count)
                 {
+                    incorrectBlocksSb.AppendLine("------------------- " + block.PhrasesJp.Count.ToString() + "---" + block.PhrasesEng.Count.ToString() + " -------------------");
                     incorrectBlocksSb.AppendLine("------------------- " + "JP > ENG" + " -------------------");
                     incorrectBlocksSb.AppendLine(block.OriginalText.Replace("\n", "\r\n"));
                     incorrectBlocksSb.AppendLine("-------------------------------------------------------");
