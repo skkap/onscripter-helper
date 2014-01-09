@@ -21,8 +21,10 @@ In English: [http://unclemion.com/onscripter/api/NScrAPI.html](http://unclemion.
 
 Just run 'onscripter-helper.exe' with a path to the decrypted (plain text in Japanese Shift-JIS encoding) 'nscript.dat' as an argument.
 
-You can decrypt 'nscript.dat' with 'NSDEC.exe' and crypt back with 'nscmaker'.
-
  ```
 jpgame.exe ./data/nscript.dat
  ```
+
+You can decrypt 'nscript.dat' with 'NSDEC.exe' and crypt back with 'nscmaker'.
+
+
